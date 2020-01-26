@@ -1,0 +1,11 @@
+//ticTocInterrupt
+//attachInterrupt()
+//digitalPinToInterrupt(pin)
+//Mega pins 2 3 18 19 20 21
+//attachInterrupt(digitalPinToInterrupt(pin), ISR, mode)
+//ISR (interrupt service routine) function called does not pass or return variables  pass data using volatile global variables
+//mode = LOW ; CHANGE; RISING; FALLING (a few boards allow HIGH)
+//detachInterrupt(digitalPinToINterrupt(pin))
+// iterrupts(); turns on interrupts
+// nointerrupts(); turns off interrupts 
+// iterrupts still register the trigger but do not interrupt until turned on in priority order
